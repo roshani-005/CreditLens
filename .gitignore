@@ -1,0 +1,18 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+.DS_Store
+
+# Raw/processed credit data and trained models should not be committed.
+data/*.csv
+data/*.parquet
+artifacts/*.joblib
+artifacts/*.pkl
+
+# Generated plots/tables are reproducible. Demo examples may be force-added if desired.
+outputs/*.png
+outputs/*.csv
+outputs/*.json

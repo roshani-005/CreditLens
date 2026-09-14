@@ -1,0 +1,10 @@
+numpy>=2.0,<3
+pandas>=2.2,<3
+scikit-learn>=1.6,<2
+xgboost>=2.1,<4
+shap>=0.46,<1
+matplotlib>=3.9,<4
+Faker>=30,<40
+joblib>=1.4,<2
+streamlit>=1.41,<2
+pytest>=8,<10
